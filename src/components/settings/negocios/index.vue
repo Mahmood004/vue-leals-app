@@ -53,28 +53,28 @@ import Commissions from './Commissions.vue'
 
 import { ref } from 'vue'
 
-// const businessTypes = ref([
-//   {
-//     name: 'Local',
-//     categories: ['Peluquería', 'Barbería'],
-//   },
-//   {
-//     name: 'Profesional',
-//     categories: ['', ''],
-//   },
-//   {
-//     name: 'Freelancers',
-//     categories: ['', ''],
-//   },
-//   {
-//     name: 'Mobility',
-//     categories: ['', ''],
-//   },
-//   {
-//     name: 'Buy/sell',
-//     categories: ['', ''],
-//   },
-// ])
+const businessTypes = ref([
+  {
+    name: 'Local',
+    categories: ['Peluquería', 'Barbería'],
+  },
+  {
+    name: 'Profesional',
+    categories: ['', ''],
+  },
+  {
+    name: 'Freelancers',
+    categories: ['', ''],
+  },
+  {
+    name: 'Mobility',
+    categories: ['', ''],
+  },
+  {
+    name: 'Buy/sell',
+    categories: ['', ''],
+  },
+])
 </script>
 
 <script>

@@ -571,6 +571,10 @@ td:nth-child(2) {
   font-size: 12px;
 }
 
+.c-table__header {
+  overflow-x: scroll;
+}
+
 .c-table__header tr {
   color: $black-text;
   font-size: 14px;
